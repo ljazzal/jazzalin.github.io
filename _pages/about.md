@@ -2,23 +2,23 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Robotics student | University of Toronto Institute for Aerospace Studies (UTIAS)
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile2.jpg
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As a MASc student at [UTIAS](https://www.utias.utoronto.ca/), I conduct research at the intersection of robotics and computational neuroscience. I am advised by Professor [G.M.T. D'Eleuterio](https://www.utias.utoronto.ca/research-and-centres/space-robotics/) and collaborate closely with the [Neural System and Brain Signal Processing Lab (NSBSPL)](https://sites.google.com/view/lnsbsp/home) at the [Krembil Research Institute](https://www.uhn.ca/Research/Research_Institutes/Krembil).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My background is in Mechatronics Engineering and AI at the [University of Waterloo](https://uwaterloo.ca/). Over the course of my undergrad co-op program, I had the opportunity to get hands-on experience in automation and robotics, including as a research intern at the [ABB Corporate Research Center](https://global.abb/group/en/technology/corporate-research-centers/switzerland) in Switzerland and as a software developer at [Clearpath Robotics](https://clearpathrobotics.com/).
+
+
+## Research interests
+
+I am particularly interested in the combination of robust state estimation and control algorithms with neuronal dynamics. As of June 2021, I have had the chance of working with [SpiNNaker neuromorphic hardware](http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/Access/) (48-node board) to validate neuronal network models and explore opportunities for closed-loop control.
+
+In general, I am very enthusiastic about the use of robotics as a tool to test hypotheses in neuroscience. Conversely, I firmly believe in drawing inspiration from Nature to design and ultimately better understand robotic systems.

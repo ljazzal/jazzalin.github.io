@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of past and current projects at the intersection of computational neuroscience, robotics and deep learning
 nav: true
-display_categories: [work, fun]
+display_categories: [2021, 2020, 2019]
 horizontal: false
 ---
 <div class="projects">

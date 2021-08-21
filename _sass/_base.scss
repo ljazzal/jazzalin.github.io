@@ -119,6 +119,7 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 1.0rem;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -253,12 +254,17 @@ footer.sticky-bottom {
 
 .header-bar {
   border-bottom: 1px solid $grey-color-light;
+  background-image: url("../img/mountain.jpg");
+  background-size: 800px;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 16rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+  }
+  h2 {
+    font-style: italic;
   }
 }
 
@@ -331,6 +337,7 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      height: 200px;
     }
     .card-title {
       color: $black-color;
@@ -360,6 +367,54 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+}
+
+// Tutorials
+
+.tutorials {
+    a {
+      text-decoration: none;
+  
+      &:hover {
+        .card-title {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  
+    .card {
+      img {
+        width: 100%;
+        height: 200px;
+      }
+      .card-title {
+        color: $black-color;
+      }
+    }
+  
+    .card-item {
+      width: auto;
+      margin-bottom: 10px;
+  
+      .row {
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    .grid-item {
+      width: 250px;
+      margin-bottom: 10px;
+    }
+  
+    h2.category {
+      color: $grey-color-light;
+      border-bottom: 1px solid $grey-color-light;
+      padding-top: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: right;
+    }
 }
 
 
