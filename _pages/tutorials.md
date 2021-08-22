@@ -26,7 +26,7 @@ horizontal: false
       {% else %}
         <div class="grid">
           {% for project in sorted_projects %}
-            {% include tutorials.html %}
+            {% include projects.html %}
           {% endfor %}
         </div>
       {% endif %}
@@ -47,7 +47,7 @@ horizontal: false
     {% else %}
       <div class="grid">
         {% for project in sorted_projects %}
-          {% include tutorials.html %}
+          {% include projects.html %}
         {% endfor %}
       </div>
     {% endif %}
