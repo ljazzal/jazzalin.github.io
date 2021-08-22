@@ -19,6 +19,6 @@ My background is in Mechatronics Engineering and AI at the [University of Waterl
 
 ## Research interests
 
-I am particularly interested in the combination of robust state estimation and control algorithms with neuronal dynamics. As of June 2021, I have had the chance of working with [SpiNNaker neuromorphic hardware](http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/Access/) (48-node board) to validate neuronal network models and explore opportunities for closed-loop control.
+I am particularly interested in the combination of robust state estimation and control algorithms with neuronal dynamics. As of June 2021, I have had the chance of working with [SpiNNaker neuromorphic hardware](http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/Access/) (48-node board) to validate neuronal network models and explore opportunities for closed-loop control. In the future, I hope to integrate my findings into a larger robotic system (e.g. [NRP](https://neurorobotics.net/)) to evaluate the influence of the environment on neuronal dynamics.
 
 In general, I am very enthusiastic about the use of robotics as a tool to test hypotheses in neuroscience. Conversely, I firmly believe in drawing inspiration from Nature to design and ultimately better understand robotic systems.
