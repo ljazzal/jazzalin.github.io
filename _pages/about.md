@@ -14,7 +14,7 @@ social: true  # includes social icons at the bottom of the page
 As a MASc student at [UTIAS](https://www.utias.utoronto.ca/), I conduct research at the intersection of robotics and computational neuroscience. I am advised by Professor [G.M.T. D'Eleuterio](https://www.utias.utoronto.ca/research-and-centres/space-robotics/) and collaborate closely with the [Neural System and Brain Signal Processing Lab (NSBSPL)](https://sites.google.com/view/lnsbsp/home) at the [Krembil Research Institute](https://www.uhn.ca/Research/Research_Institutes/Krembil).
 
 
-My background is in Mechatronics Engineering and AI at the [University of Waterloo](https://uwaterloo.ca/). Over the course of my undergrad co-op program, I had the opportunity to get hands-on experience in automation and robotics, including as a research intern at the [ABB Corporate Research Center](https://global.abb/group/en/technology/corporate-research-centers/switzerland) in Switzerland and as a software developer at [Clearpath Robotics](https://clearpathrobotics.com/).
+My background is in Mechatronics Engineering and AI at the [University of Waterloo](https://uwaterloo.ca/). Over the course of my undergrad co-op program, I had the opportunity to get hands-on experience in automation and robotics, including as a research intern at the [ABB Corporate Research Center](https://global.abb/group/en/technology/corporate-research-centers/switzerland) in Switzerland and as a software developer at [Clearpath Robotics](https://clearpathrobotics.com/). <br /><br />
 
 
 ## Research interests
