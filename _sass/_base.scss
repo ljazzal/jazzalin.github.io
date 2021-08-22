@@ -443,6 +443,14 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+
+  .thumb {
+    img {
+        // vertical-align:top;
+        width: 100%;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
