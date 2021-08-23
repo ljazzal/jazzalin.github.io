@@ -354,6 +354,10 @@ footer.sticky-bottom {
     }
   }
 
+  .pdf-icon {
+      padding-left: 5px;
+  }
+
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
@@ -400,6 +404,10 @@ footer.sticky-bottom {
         display: flex;
         align-items: center;
       }
+    }
+
+    .pdf-icon {
+        padding-left: 5px;
     }
   
     .grid-item {

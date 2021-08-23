@@ -4,7 +4,7 @@ title: It's all about attitude...
 description: Monocular spacecraft pose estimation from a single image
 img: /assets/img/attitude.png
 github: https://github.com/ljazzal/spacecraft-pose-estimation
-pdf:
+pdf: /assets/pdf/aer1515_final_report_2020.pdf
 importance: 2
 category: 2020
 ---
