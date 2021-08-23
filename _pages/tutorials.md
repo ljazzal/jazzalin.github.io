@@ -4,7 +4,7 @@ title: tutorials
 permalink: /tutorials/
 description: A collection of tutorials, walkthroughs and paper reviews 
 nav: true
-display_categories:
+display_categories: [research, misc]
 horizontal: false
 ---
 <div class="tutorials">
@@ -18,14 +18,14 @@ horizontal: false
       {% if page.horizontal %}
         <div class="container">
           <div class="row row-cols-2">
-          {% for project in sorted_projects %}
+          {% for project in sorted_tutorials %}
             {% include projects_horizontal.html %}
           {% endfor %}
           </div>
         </div>
       {% else %}
         <div class="grid">
-          {% for project in sorted_projects %}
+          {% for project in sorted_tutorials %}
             {% include projects.html %}
           {% endfor %}
         </div>
@@ -34,12 +34,12 @@ horizontal: false
 
   {% else %}
   <!-- Display projects without categories -->
-    {% assign sorted_projects = site.tutorials %}
+    {% assign sorted_tutorials = site.tutorials %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">
         <div class="row row-cols-2">
-        {% for project in sorted_projects %}
+        {% for project in sorted_tutorials %}
           {% include projects_horizontal.html %}
         {% endfor %}
         </div>
