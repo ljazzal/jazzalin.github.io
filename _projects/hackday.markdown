@@ -12,15 +12,15 @@ During the 2019 Clearpath Summer hackday challenge, our team of three decided to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/hackbot.jpg' | relative_url }}" alt="" title="hackbot" height="100"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/hackbot.jpg' | relative_url }}" alt="" title="hackbot"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/hackday.png' | relative_url }}" alt="" title="hackday result" height="100"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/hackday.png' | relative_url }}" alt="" title="hackday result"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/logo.png' | relative_url }}" alt="" title="clearpath logo" height="200"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/logo.png' | relative_url }}" alt="" title="clearpath logo" />
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Husky with RTK GPS borrowed to run the demo (left); planned demo path (middle) based on the company logo (right)
 </div>
