@@ -19,5 +19,5 @@ During my internship at Clearpath Robotics, I was fortunate to be able to contri
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The Moose UGV, Clearpath's biggest outdoor research platform, can be simulated in Gazebo
 </div>
