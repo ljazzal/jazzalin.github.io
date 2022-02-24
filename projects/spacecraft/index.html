@@ -11,7 +11,7 @@
   Loïc James Azzalini
 
 
-  | blog
+  | It's all about attitude...
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>L︁</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/spacecraft/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -97,18 +97,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -159,18 +155,132 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <!-- <h1>brain-pickings</h1> -->
-    <h2>brain-pickings</h2>
+  <header class="post-header">
+    <h1 class="post-title">It's all about attitude...</h1>
+    <p class="post-description">Monocular spacecraft pose estimation from a single image</p>
+  </header>
+
+  <article>
+    <div class="publications">
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">attitude</abbr>
+    
+    <!-- <div class="publications thumb">
+        <img src="/assets/img/attitude.png">
+    </div> -->
+  
   </div>
 
-
-  <ul class="post-list">
+  <div id="attitude" class="col-sm-8">
     
-  </ul>
+      <div class="title">It’s All About Attitude: Monocular Spacecraft Pose Estimation</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Constantinescu, Andrew,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Azzalini, Loïc James
+                
+              
+            
+          
+        
+      </div>
 
-  
+      <div class="periodical">
+      
+      
+        2020
+      
+      </div>
+    
 
+    <div class="links">
+    
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/aer1515_final_report_2020.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li></ol>
+</div>
+
+<p>Launching anything in orbit is expensive and access is limited if not impossible once it’s up there. There has been a lot of interest in recent years, with projects like OSAM and ClearSpace, in adding active maintenance to the satellite life cycle, potentially expanding the life expectancy of space assets. Whether it be refueling, repairs or even removal, the maintenance of space vehicles and their orbital environment is seen as a crucial endeavour. Typically, the target satellite is known beforehand and a detailed 3D model of the vehicle is available for close-proximity operation. However, in the case of space debris or defunct satellites, exact models might not be available, warranting the use of generalizable techniques that only rely on scene information. Perception algorithms such as object detection and pose estimation could provide valuable estimates of the state of the target object.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_level.png" alt="" title="pipeline" />
+    </div>
+</div>
+<div class="caption">
+    High level pipeline for an on-board pose estimation algorithm
+</div>
+
+<p>The Kelvins Satellite Pose Estimation Challenge was designed to evaluate vision-based approaches to 6D pose estimation. The challenge was based on the SPEED dataset from the Stanford Space Rendezvous Lab, which provides fixed camera intrinsics and groundtruth pose in the form of a translation vector and unit quaternion vector, relative to the camera (assumed to be on-board a neighboring spacecraft).</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cnn_arch.png" alt="" title="CNN architecture" />
+    </div>
+</div>
+<div class="caption">
+    CNN architecture for the full 6D pose estimation from a single image
+</div>
+
+<p>This challenge was undertaken as the final project in a course on perception for robotics. The goal was to determine the position and orientation of the target spacecraft from a single image. In the interest of simplicity, an end-to-end approach was adopted, based on a common backbone (<code class="language-plaintext highlighter-rouge">ResNet-34</code>) and separate branches for the translation and orientation regression. Instead, emphasis was put on the comparison of three different attitude descriptors: unit quaternions, Euler angles and the Euler axis-angle representation. We were interested to determine if any particular attitude descriptor presented advantages in the direct regression of the orientation degrees of freedom.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/attitude_descriptors.png" alt="" title="CNN architecture" />
+    </div>
+</div>
+<div class="caption">
+    Comparison of orientation regression based on three different attitude descriptors
+</div>
+
+  </article>
 
 </div>
 

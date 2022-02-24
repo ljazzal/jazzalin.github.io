@@ -11,7 +11,7 @@
   Loïc James Azzalini
 
 
-  | blog
+  | SmartSnipe shooter tutor
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>L︁</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/smartsnipe/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -97,18 +97,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -159,18 +155,46 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <!-- <h1>brain-pickings</h1> -->
-    <h2>brain-pickings</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">SmartSnipe shooter tutor</h1>
+    <p class="post-description">"You miss 100% of the shots you don't take." - Wayne Gretzky
+</p>
+  </header>
 
+  <article>
+    <p>SmartSnipe is a smart hockey “shooter tutor” that can be attached to any hockey net to enhance the shooting practice experience. By leveraging actuators mounted on the board, the slots are remotely controlled to simulate goal scoring opportunities, while a player-facing camera, a speed gun and various detection sensors are fused to produce performance indicators and provide feedback to the player. Action recognition via CNN-based pose estimation is being researched to infer when a player is in a shooting position. The results below have been obtained with a Kinect camera and a modified OpenPose library running on an NVIDIA Jetson TX1.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" style="margin-left: auto; margin-right: auto;" src="/assets/img/demo_gate.gif" alt="" title="SmartSnipe front" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" style="margin-left: auto; margin-right: auto;" src="/assets/img/demo.gif" alt="" title="live pose estimation" />
+    </div>
+</div>
+<div class="caption">
+    The doors are remotely controlled from a mobile application (e.g., by the coach) for a predefined amount of time to simulate in-game scoring opportunities. Training sessions are recorded in order to analyze the player's shooting pose (offline) 
+</div>
 
-  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/smartsnipe_arch.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    The software architecture of the SmartSnipe system implemented with ROS
+</div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/smartsnipe_poster.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    At the 2020 Mechatronics Engineering Capstone Design Symposium (University of Waterloo), the project was co-awarded "Best prototype quality".
+</div>
+
+  </article>
 
 </div>
 

@@ -11,7 +11,7 @@
   Loïc James Azzalini
 
 
-  | blog
+  | Coverage path planning
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>L︁</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/coverage/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -97,18 +97,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -159,18 +155,41 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <!-- <h1>brain-pickings</h1> -->
-    <h2>brain-pickings</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Coverage path planning</h1>
+    <p class="post-description">Offline area coverage path planning for GPS mobile robot</p>
+  </header>
 
+  <article>
+    <p>This research project was taken up on the side while interning at Clearpath Robotics. The original task involved the integration of a new GPS sensor with the Jackal UGV, the smallest outdoor UGV of the fleet. Given a smaller body, RTK GPS solutions are limited on such a platform and localization accuracy can be affected as a result.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/coverage_og_task.png" alt="" title="what I was supposed to work on" />
+    </div>
+</div>
+<div class="caption">
+    Original sensor integration task and preliminary results
+</div>
 
-  
+<p>Once the new sensor had been integrated and localization results were satisfactory, I started experimenting with coverage path planning methods for outdoor mobile robots. Based on the popular <a href="https://asset-pdf.scinapse.io/prod/1590932131/1590932131.pdf">Boustrophedon cell decomposition method</a>, an offline coverage “path planning” algorithm was implemented to parse arbitrary polygons into a sequence of GPS waypoints which could then be passed to the mobile platform’s navigation stack. The user need only select boundary points in a GUI with GPS images of the location to delineate the region of interest and the extended stack would compute the appropriate path segments, accounting for obstacles and non-convex angles.</p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/gazebo.png" alt="" title="simulation" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/angled_coverage.png" alt="" title="angled coverage" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/obstacle.png" alt="" title="obstacle" />
+    </div>
+</div>
+<div class="caption">
+    The coverage path could be inspected in Gazebo before deployment (left), as the control interface provided an update of the coverage progress (middle, right)
+</div>
+
+  </article>
 
 </div>
 

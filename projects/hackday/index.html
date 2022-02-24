@@ -11,7 +11,7 @@
   Loïc James Azzalini
 
 
-  | blog
+  | Clearpath Hackday
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>L︁</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/hackday/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -97,18 +97,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -159,18 +155,30 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <!-- <h1>brain-pickings</h1> -->
-    <h2>brain-pickings</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Clearpath Hackday</h1>
+    <p class="post-description">Yet another line marking robot...</p>
+  </header>
 
+  <article>
+    <p>During the 2019 Clearpath Summer hackday challenge, our team of three decided to build yet another line marking robot for turf. However, instead of converting the office backyard into a soccer pitch, we thought we could pull-off a publicity stunt by printing the company logo, large enough to be captured by a drone’s camera flying overhead. Well, we didn’t quite get to that stage.. but we got pretty close! The logo was parsed as a polygon whose vertices were then converted into local GPS coordinates to allow for waypoint navigation.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/hackbot.jpg" alt="" title="hackbot" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/hackday.png" alt="" title="hackday result" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/logo.png" alt="" title="clearpath logo" />
+    </div>
+</div>
+<div class="caption">
+    Husky with RTK GPS borrowed to run the demo (left); planned demo path (middle) based on the company logo (right)
+</div>
 
-  
-
+  </article>
 
 </div>
 

@@ -11,7 +11,7 @@
   Loïc James Azzalini
 
 
-  | blog
+  | moose simulator
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>L︁</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/moose/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -97,18 +97,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -159,18 +155,27 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <!-- <h1>brain-pickings</h1> -->
-    <h2>brain-pickings</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">moose simulator</h1>
+    <p class="post-description">Moose UGV meets Gazebo</p>
+  </header>
 
+  <article>
+    <p>During my internship at Clearpath Robotics, I was fortunate to be able to contribute to open-source software, mainly through the ROS ecosystem. From drivers for sensors commonly found on mobile robots to Gazebo simulations for Clearpath platforms, this experience was a great way to be involved in the development of robotics research. I developed the first iteration of the Clearpath Moose <a href="https://github.com/moose-cpr/moose_simulator">Gazebo simulation</a>, now available for ROS Kinetic!</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/moose.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/moose_sim.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    The Moose UGV, Clearpath's biggest outdoor research platform, can be simulated in Gazebo
+</div>
 
-  
-
+  </article>
 
 </div>
 
