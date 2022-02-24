@@ -21,4 +21,4 @@ My background is in Mechatronics Engineering and AI at the [University of Waterl
 
 I am particularly interested in the combination of robust state estimation and control algorithms with neural oscillatory dynamics. As of June 2021, I have had the opportunity of working with [SpiNNaker neuromorphic hardware](http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/Access/) to validate neuronal network models and explore strategies for closed-loop control. In the future, I hope to integrate my findings into a larger robotic system to evaluate the influence of the environment on neuronal dynamics.
 
-In general, I am very enthusiastic about the use of robotics as a tool to validate models from neuroscience. Conversely, I firmly believe in drawing inspiration from Nature to design and ultimately better understand robotic systems.
+In general, I am enthusiastic about the interplay between robotics and neuroscience: on the one hand as a source of inspiration to design and ultimately better understand robotic systems, on the other as an opportunity to embody abstract models.

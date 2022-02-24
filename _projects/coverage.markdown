@@ -9,7 +9,7 @@ importance: 3
 category: 2019
 ---
 
-This research project was taken up on the side while interning at Clearpath Robotics. The original task involved the integration of a new GPS sensor with the Jackal UGV, the smalles outdoor UGV of the fleet. Given a smaller body, RTK GPS solutions are limited on such a platform and localization accuracy can be affected as a result.
+This research project was taken up on the side while interning at Clearpath Robotics. The original task involved the integration of a new GPS sensor with the Jackal UGV, the smallest outdoor UGV of the fleet. Given a smaller body, RTK GPS solutions are limited on such a platform and localization accuracy can be affected as a result.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
