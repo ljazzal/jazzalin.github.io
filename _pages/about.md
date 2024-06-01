@@ -2,23 +2,27 @@
 layout: about
 title: about
 permalink: /
-description: Robotics student | University of Toronto Institute for Aerospace Studies (UTIAS)
+description: Robotics research
 
 profile:
   align: right
-  image: profile2.jpg
+  image: jazzalin.jpg
 
 social: true  # includes social icons at the bottom of the page
+selected_papers: true
 ---
 
-As a MASc student at [UTIAS](https://www.utias.utoronto.ca/), I conduct research at the intersection of robotics and computational neuroscience. I am advised by Professor [G.M.T. D'Eleuterio](https://www.utias.utoronto.ca/research-and-centres/space-robotics/) and collaborate closely with the [Neural System and Brain Signal Processing Lab (NSBSPL)](https://sites.google.com/view/lnsbsp/home) at the [Krembil Research Institute](https://www.uhn.ca/Research/Research_Institutes/Krembil).
+Welcome to my personal website! Here you'll find research projects undertaken as a robotics student at the [University of Waterloo](https://uwaterloo.ca/) and the [University of Toronto](https://www.utoronto.ca), and as a graduate researcher at the [**European Space Agency**](https://www.esa.int) and the [**ZHAW**](https://www.zhaw.ch/en/university/).
 
+I previously completed internships in software development and robotics at [Clearpath Robotics](https://clearpathrobotics.com), [ABB Corporate Research Center](https://global.abb/group/en/technology/corporate-research-centers/switzerland) and [Honeywell](https://buildings.honeywell.com/us/en/home) [(Aerospace)](https://aerospace.honeywell.com/us/en/products-and-services/industry/space/satellite-products-and-systems).
 
-My background is in Mechatronics Engineering and AI at the [University of Waterloo](https://uwaterloo.ca/). Over the course of my undergrad co-op program, I had the opportunity to get hands-on experience in automation and robotics, including as a research intern at the [ABB Corporate Research Center](https://global.abb/group/en/technology/corporate-research-centers/switzerland) in Switzerland and as a software developer at [Clearpath Robotics](https://clearpathrobotics.com/). <br /><br />
+<br>
+<br>
+<br>
 
+## Research Interests
 
-## Research interests
-
-I am particularly interested in the combination of robust state estimation and control algorithms with neural oscillatory dynamics. As of June 2021, I have had the opportunity of working with [SpiNNaker neuromorphic hardware](http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/Access/) to validate neuronal network models and explore strategies for closed-loop control. In the future, I hope to integrate my findings into a larger robotic system to evaluate the influence of the environment on neuronal dynamics.
-
-In general, I am enthusiastic about the interplay between robotics and neuroscience: on the one hand as a source of inspiration to design and ultimately better understand robotic systems, on the other as an opportunity to embody abstract models.
+- Neuromorphic computing
+- Space systems
+- Computer vision
+- Robotics

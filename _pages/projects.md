@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A collection of past and current projects at the intersection of computational neuroscience, robotics and deep learning
+description:
 nav: true
-display_categories: [2021, 2020, 2019]
+display_categories: [2023] #, 2022, 2021, 2020, 2019]
 horizontal: false
 ---
 <div class="projects">

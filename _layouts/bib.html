@@ -10,9 +10,12 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
     <!-- <div class="publications thumb">
-        <img src="{{ site.data.teasers[entry.abbr].img| prepend: '/assets/img/' }}">
+        <img src="{{ entry.preview | prepend: '/assets/img/' }}">
     </div> -->
   {% endif %}
+  <div class="publications thumb">
+    <img src="{{ entry.preview | prepend: '/assets/img/' }}">
+  </div>
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
