@@ -1,12 +1,12 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Articles
 nav: true
 nav_order: 1
 pagination:
   enabled: true
-  collection: posts
+  collection: articles
   permalink: /page/:num/
   per_page: 5
   sort_field: date
@@ -24,7 +24,7 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
+    <!-- <h1>{{ site.blog_name }}</h1> -->
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}

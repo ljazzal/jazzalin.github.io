@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: Robotics research
 
@@ -16,6 +16,13 @@ Welcome to my personal website! Here you'll find research projects undertaken as
 
 I previously completed internships in software development and robotics at [Clearpath Robotics](https://clearpathrobotics.com), [ABB Corporate Research Center](https://global.abb/group/en/technology/corporate-research-centers/switzerland) and [Honeywell](https://buildings.honeywell.com/us/en/home) [(Aerospace)](https://aerospace.honeywell.com/us/en/products-and-services/industry/space/satellite-products-and-systems).
 
+Research interests:
+- neuromorphic computing
+- space systems
+- computer vision
+- robotics
+
+<!-- <br>
 <br>
 <br>
 <br>
@@ -25,4 +32,4 @@ I previously completed internships in software development and robotics at [Clea
 - Neuromorphic computing
 - Space systems
 - Computer vision
-- Robotics
+- Robotics -->
