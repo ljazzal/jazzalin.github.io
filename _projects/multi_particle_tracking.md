@@ -26,7 +26,7 @@ This project aims to further evaluate dynamic vision sensing for future space ap
     </div>
 </div>
 <div class="caption">
-    Bennu-fixed particle ejection visualization based on the interpolation of SPICE kernels from 2019-09-13T21:00:00 to 2019-09-14T00:00:00
+    Fig. 1: Bennu-fixed particle ejection visualization based on the interpolation of SPICE kernels from 2019-09-13T21:00:00 to 2019-09-14T00:00:00
 </div>
 
 The first step consists in simulating an event-based representation of an active asteroid from the point of view of a realistic trajectory under lighting conditions that capture the high dynamic range of the deep space environment. Fig. 1 reconstructs from the openly-available SPICE kernels [8] an episode where multiple particles were observed near the surface of Bennu. Particular attention is given to the representation of the centimetre-size particles temporarily orbiting the asteroid, as reported by the OSIRIS-REx mission. The second phase of the project focuses on the development of event-based particle detection and tracking algorithms.
@@ -43,7 +43,7 @@ The particle ejection episodes illustrated in Fig. 1 can be rendered more realis
     </div>
 </div>
 <div class="caption">
-    Reconstruction of a particle ejection episode: (a) the particles are difficult to detect in the photorealistic render, (b) yet accumulation of synthetic events in a single frame make the particles more easily identifiable against the dynamic background noise (b) and clearly visible in the absence of noise (c) (the arrows indicate the ejecta direction)
+    Fig. 2: Reconstruction of a particle ejection episode: (a) the particles are difficult to detect in the photorealistic render, (b) yet accumulation of synthetic events in a single frame make the particles more easily identifiable against the dynamic background noise (b) and clearly visible in the absence of noise (c) (the arrows indicate the ejecta direction)
 </div>
 
 The noisy representation of particle ejection episodes (centre image above) will subsequently be used to evaluate event-based multi-object detection and tracking algorithms.
