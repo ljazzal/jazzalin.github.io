@@ -10,7 +10,7 @@
 	journal = {bioRxiv},
 	author = {Azzalini, Loïc J. and Lankarany, Milad},
 	year = {2022},
-	note = {Publisher: Cold Spring Harbor Laboratory},
+	note = {bioRxiv preprint},
     pdf = {https://www.biorxiv.org/content/early/2022/09/15/2022.09.13.507796.full.pdf},
 }
 
@@ -36,7 +36,7 @@
   author       = {Azzalini, Loïc J. and Blazquez, Emmanuel and Hadjiivanov, Alexander and Meoni, Gabriele and Izzo, Dario},
   title        = {On the Generation of Synthetic Event-Based Vision Datasets for Navigation and Landing},
   code         = {https://gitlab.com/EuropeanSpaceAgency/trajectory-to-events},
-  preview      = {landing_motion_field.png},
+  preview      = {esa_gnc_2023.png},
   slides       = {esa_gnc_2023_azzalini_static.pdf},
   abstract     = {This paper presents a methodology and a software pipeline for generating event-based vision datasets from optimal landing trajectories. The study is motivated by the potential use case for an onboard event-based navigation camera during the approach of a target body and the lack of real-world datasets to support it due to the fact that event-based cameras are relatively new technology. We construct sequences of photorealistic images of the lunar surface with the Planet and Asteroid Natural Scene Generator (PANGU) at various points along optimal descent trajectories with varying boundary conditions. The generated image sequences are then converted into event streams by means of an event-based camera emulator. We demonstrate that the pipeline can generate realistic event-based representations of surface features by constructing a dataset of 500 trajectories, complete with event streams and motion field groundtruth data. We anticipate that novel event-based vision datasets can be generated using this pipeline to support various spacecraft pose reconstruction problems given events as input, and we hope that the proposed methodology would attract the attention of researchers working at the intersection of neuromorphic vision and guidance navigation and control.},
   date         = {2023},
@@ -62,4 +62,24 @@
 	author = {Azzalini, Loïc J. and Crompton, David and D'Eleuterio, Gabriele M. T. and Skinner, Frances and Lankarany, Milad},
 	month = mar,
 	year = {2023},
+}
+
+@InProceedings{Azzalini2024,
+author="Azzalini, Lo{\"i}c
+and Gl{\"u}ge, Stefan
+and Struckmeier, Jens
+and Sandamirskaya, Yulia",
+editor="Wand, Michael
+and Malinovsk{\'a}, Krist{\'i}na
+and Schmidhuber, J{\"u}rgen
+and Tetko, Igor V.",
+title="Event-Based Hand Detection on Neuromorphic Hardware Using a Sigma Delta Neural Network",
+booktitle="Artificial Neural Networks and Machine Learning -- ICANN 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="353--364",
+preview="icann_2024.png",
+abstract="The development of deep learning (DL) models has dramatically improved marker-free human pose estimation, including an important task of hand tracking. However, for applications in real-time critical and embedded systems, e.g. in robotics or augmented reality, hand tracking based on standard frame-based cameras is too slow and/or power hungry. The latency is limited by the frame rate of the image sensor already, and any subsequent DL processing further increases the latency gap, while requiring substantial power for processing. Dynamic vision sensors, on the other hand, enable sub-millisecond time resolution and output sparse signals that can be processed with an efficient Sigma Delta Neural Network (SDNN) model that preserves the sparsity advantage in the neural network. This paper presents the training and evaluation of a small SDNN for hand detection, based on event data from the DHP19 dataset deployed on Intel's Loihi 2 neuromorphic development board. We found it possible to deploy a hand detection model in neuromorphic hardware backend without a notable performance difference to the original GPU implementation, at an estimated mean dynamic power consumption for the network running on the chip of ≈7mW.",
+isbn="978-3-031-72359-9"
 }

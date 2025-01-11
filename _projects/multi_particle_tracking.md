@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dynamic vision for active asteroids
+title: ESCAPE from Bennu
 img: /assets/img/bennu_dvs.png
 github: https://github.com/jazzalin/escape-bennu
 category: 2023

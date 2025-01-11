@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eventful landings
-img: /assets/img/landing_motion_field.png
+img: /assets/img/esa_gnc_2023.png
 github: https://gitlab.com/EuropeanSpaceAgency/trajectory-to-events
 category: 2023
 ---
